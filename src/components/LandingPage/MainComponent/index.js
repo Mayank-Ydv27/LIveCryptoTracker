@@ -15,7 +15,7 @@ function MainComponent() {
           className="heading1"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.5, duration: 1 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
         >
           Track Crypto
         </motion.h1>
@@ -23,7 +23,7 @@ function MainComponent() {
           className="heading2"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.75, duration: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
         >
           Real Time.
         </motion.h1>
@@ -31,7 +31,7 @@ function MainComponent() {
           className="info-text"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 1, duration: 1 }}
+          transition={{ delay: 0.8, duration:1 }}
         >
           Track crypto through a public api in real time. Visit the dashboard to
           do so!{" "}
@@ -47,8 +47,8 @@ function MainComponent() {
           </a>
           <RWebShare
             data={{
-              text: "CryptoDashboard made by Avi Vashishta using React JS.",
-              url: "https://crypto-dashboard-jan.netlify.app",
+              text: "CryptoDashboard made by Mayank Yadav using React JS.",
+              url: "https://l-ive-crypto-tracker.vercel.app/",
               title: "CryptoTracker.",
             }}
             onClick={() => toast.info("App Shared!")}
@@ -62,8 +62,8 @@ function MainComponent() {
         <motion.img
           src={iphone}
           className="iphone"
-          initial={{ y: -10 }}
-          animate={{ y: 10 }}
+          initial={{ y: -13 }}
+          animate={{ y: 13 }}
           transition={{
             type: "smooth",
             repeatType: "mirror",
